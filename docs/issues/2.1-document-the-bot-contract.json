@@ -1,0 +1,18 @@
+{
+  "rank": "2.1",
+  "title": "Document the bot contract",
+  "context": "The contract is spread across traits and docs.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Write one bot contract page.",
+    "expected_outcome": "Bot authors share one reference.",
+    "acceptance_criteria": [
+      "Traits are explained",
+      "Examples are linked"
+    ]
+  },
+  "attempts": []
+}

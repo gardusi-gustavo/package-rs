@@ -1,0 +1,18 @@
+{
+  "rank": "1.1",
+  "title": "Freeze the crate name",
+  "context": "The crate name is the public import contract.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Review Cargo.toml and document the crate name.",
+    "expected_outcome": "Consumers import one stable crate.",
+    "acceptance_criteria": [
+      "Name is documented",
+      "cargo test passes"
+    ]
+  },
+  "attempts": []
+}

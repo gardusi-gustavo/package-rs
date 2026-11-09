@@ -1,0 +1,18 @@
+{
+  "rank": "2.3",
+  "title": "Add benchmarks",
+  "context": "There are no performance baselines.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add one benchmark and a baseline note.",
+    "expected_outcome": "Performance changes are measurable.",
+    "acceptance_criteria": [
+      "Benchmark runs",
+      "Baseline is documented"
+    ]
+  },
+  "attempts": []
+}

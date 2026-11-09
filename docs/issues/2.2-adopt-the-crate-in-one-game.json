@@ -1,0 +1,18 @@
+{
+  "rank": "2.2",
+  "title": "Adopt the crate in one game",
+  "context": "The games still have local libraries.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Wire one game to the crate.",
+    "expected_outcome": "One game proves the dependency path.",
+    "acceptance_criteria": [
+      "Game builds",
+      "No game code enters the crate"
+    ]
+  },
+  "attempts": []
+}

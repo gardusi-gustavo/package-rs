@@ -1,0 +1,18 @@
+{
+  "rank": "1.5",
+  "title": "Add crate publishing",
+  "context": "Release is tag-only today.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add a tag-triggered cargo publish workflow.",
+    "expected_outcome": "A v* tag publishes the crate.",
+    "acceptance_criteria": [
+      "Workflow uses cargo publish",
+      "Token scope is documented"
+    ]
+  },
+  "attempts": []
+}

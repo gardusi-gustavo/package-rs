@@ -1,0 +1,9 @@
+[package]
+name = "gardusi-gustavo-rs"
+version = "0.1.0"
+edition = "2021"
+description = "Gardusi Gustavo Rust game-kit contract"
+license = "MIT"
+
+[lib]
+crate-type = ["rlib"]

@@ -1,0 +1,18 @@
+{
+  "rank": "1.4",
+  "title": "Add the WASM boundary",
+  "context": "The browser boundary is only documented.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add a wasm build profile or target check.",
+    "expected_outcome": "The crate can target WASM.",
+    "acceptance_criteria": [
+      "Target is documented",
+      "CI keeps native tests"
+    ]
+  },
+  "attempts": []
+}

@@ -1,0 +1,18 @@
+{
+  "rank": "1.2",
+  "title": "Add conformance tests",
+  "context": "The traits have no shared test harness.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add fixtures for Action, GameState, and Game.",
+    "expected_outcome": "A game can prove it satisfies the contract.",
+    "acceptance_criteria": [
+      "Fixtures compile",
+      "Tests run in CI"
+    ]
+  },
+  "attempts": []
+}
